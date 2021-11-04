@@ -140,6 +140,29 @@ buttonAdd.addEventListener("click",
 
         console.log(teams);
 
+        containerTeam.innerHTML +=`
+
+        <div class="team-card">
+
+            <div class="card-image">
+
+                <img src="${imageAdd}"
+
+                />
+
+            </div>
+
+            <div class="card-text">
+
+                <h3>${nameAdd}</h3>
+
+                <p>${roleAdd}</p>
+                
+            </div>
+
+        </div>
+    `
+
     }
 
 )
